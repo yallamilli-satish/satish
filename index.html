@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script src="bootstrap.bundle.min.js"></script>
+    <!-- style sheet / script -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- fonts----------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">KONASEEMA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#popular-places">Popular Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tour-guides">Our Tour Guides</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- section 1------------------------------------------------------------------------------------------ -->
+    <section id="home" class="container-fluid mt-5 m-0 p-0">
+      <div id="banner">
+        <!-- Replace 'your-video-source.mp4' with the actual URL or relative path to your video source -->
+        <video id="video" autoplay muted loop>
+          <source src="eliments/video1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div id="content">
+          <h1>Welcome To Our Konaseema</h1>
+          <h3>సహజ సౌందర్యం యొక్క నిలయం, కోనసీమ.</h3>
+          <p>
+            Konaseema, a land of grace, Where nature's beauty finds its place.
+            Rolling hills and verdant fields, Where the river's gentle whisper
+            yields. A symphony of life unfolds, In Konaseema, a story to be
+            told.
+          </p>
+          <a href="#popular-places"><img src="img/arow1.png" alt="" id="arrow"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2------------------------------------------------------------------------------------------ -->
+    <section id="popular-places" class="container mt-5 mt-5 pt-5">
+      <section class="container mt-5">
+        <div class="row">
+            <!-- First Row -->
+            <div class="col-md-4">
+                <div class="grid-item">
+                    <img src="img/1img.jpg" alt="Image 1">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h2>Title 1</h2>
+                            <p>Some description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="grid-item">
+                    <img src="img/2img.jpg" alt="Image 2">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h2>Title 2</h2>
+                            <p>Some description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="grid-item">
+                    <img src="img/3img.jpg" alt="Image 3">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h2>Title 3</h2>
+                            <p>Some description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Second Row -->
+            <div class="col-md-4">
+                <div class="grid-item">
+                    <img src="img/4img.jpg" alt="Image 4">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h2>Title 4</h2>
+                            <p>Some description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="grid-item">
+                    <img src="img/5img.jpg" alt="Image 5">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h2>Title 5</h2>
+                            <p>Some description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="grid-item">
+                    <img src="img/6img.jpg" alt="Image 6">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h2>Title 6</h2>
+                            <p>Some description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <section id="gallery" class="container mt-5">
+      <h2>Gallery Section</h2>
+      <p>This is the content of the Gallery section.</p>
+    </section>
+
+    <section id="tour-guides" class="container mt-5">
+      <h2>Our Tour Guides Section</h2>
+      <p>This is the content of the Our Tour Guides section.</p>
+    </section>
+
+    <section id="reviews" class="container mt-5">
+      <h2>Reviews Section</h2>
+      <p>This is the content of the Reviews section.</p>
+    </section>
+
+    <section id="contact" class="container mt-5">
+      <h2>Contact Us Section</h2>
+      <p>This is the content of the Contact Us section.</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
